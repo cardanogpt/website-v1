@@ -237,8 +237,8 @@ const Header = styled.header`
 const Hero = styled.div`
     display:flex;
     background: url(${hero});
-    min-height:100vh;
     max-height: fit-content;
+    min-height: 110vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,6 +255,7 @@ const Hero = styled.div`
             .menu-buttton {
                 display: block;
             }
+
             
         }
         
@@ -328,12 +329,11 @@ const Hero = styled.div`
             text-align: left;
             display: flex;
             flex-direction: column;
+            gap: 1rem;
             
             
         }
-        button {
-            margin: 10px;
-        }
+        
 
     }
 
@@ -356,6 +356,12 @@ const Hero = styled.div`
         }
         .info {
             flex-direction: column;
+        }
+        height: 120vh;
+        margin: 10% 2%;
+        
+        h1 {
+            font-size: 3rem;
         }
     }
 `
@@ -415,6 +421,9 @@ const Showcase = styled.div`
         .showcase_img {
             width: 100%;
         }
+        h1 {
+            font-size: 3rem;
+        }
     }
 `
 
@@ -458,6 +467,9 @@ const Features = styled.div`
             flex-direction: column;
             gap: 2rem;
         }
+        h1 {
+            font-size: 3rem;
+        }
     }
 `
 const FeaturesII = styled.div`
@@ -499,6 +511,9 @@ const FeaturesII = styled.div`
         .feature-2-list {
             flex-direction: column;
             gap: 2rem;
+        }
+        h1 {
+            font-size: 3rem;
         }
     }
 `
