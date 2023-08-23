@@ -602,7 +602,7 @@ const Footer = styled.footer`
             
         }
         .icons {
-            width: 100%;
+            width: 80%;
             justify-content: space-around;
         }
         .hero-content {
