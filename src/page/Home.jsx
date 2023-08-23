@@ -349,6 +349,7 @@ const Hero = styled.div`
     .info {
         display: flex;
         gap: 4rem;
+        margin: 2rem 0;
     }
 
     @media screen and (${device.md}) {
