@@ -358,7 +358,7 @@ const Hero = styled.div`
             flex-direction: column;
         }
         height: 120vh;
-        margin: 10% 2%;
+        margin: 0 2%;
         
         h1 {
             font-size: 3rem;
