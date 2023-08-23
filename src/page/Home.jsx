@@ -363,6 +363,12 @@ const Hero = styled.div`
         h1 {
             font-size: 3rem;
         }
+        
+    }
+    @media screen and (max-width:1200px) {
+        .circle-two {
+            display: none;
+        }
     }
 `
 
