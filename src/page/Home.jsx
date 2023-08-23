@@ -569,6 +569,7 @@ const Footer = styled.footer`
             background: rgba(255, 255, 255, 0.1);
         }
         nav {
+            gap: 2rem;
             margin: 20px 0;
             ul {
                 width: 45%;
@@ -601,17 +602,23 @@ const Footer = styled.footer`
             flex-direction: column-reverse;
             
         }
+        .copy-section p {
+            margin-top: 10%;
+        }
+        nav img {
+            align-self: self-start;
+        }
         .icons {
-            width: 80%;
-            justify-content: space-around;
+            justify-content: space-around;  
         }
         .hero-content {
-            width: 100%;
+            width: 80%;
         }
         ul {
             display: flex;
             flex-direction: column;
-            text-align: center;
+            text-align: left;
+            align-self: self-start;
         }
     }
 `
