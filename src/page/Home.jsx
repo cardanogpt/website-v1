@@ -159,7 +159,7 @@ const Home = () => {
             <h3 className="media-heading">
                 On The Media
             </h3>
-            <div>
+            <div className='img-container'>
                 <img alt='bitcoinist logo' src={bitcoin} />
                 <img alt='business insider logo' src={business} />
             </div>
@@ -503,7 +503,7 @@ const FeaturesII = styled.div`
         }
     }
 
-    @media screen and (${device.md}) {
+    @media screen and (${device.lg}) {
         flex-direction: column;
         .text {
             width: 100%;
@@ -532,6 +532,19 @@ const Media = styled.div`
         align-items: center;
         font-size: 2rem;
         gap: 2rem;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    @media screen and (${device.md}) {
+        .img-container {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+        margin:0 1rem;
     }
 `
 
