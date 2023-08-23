@@ -202,12 +202,12 @@ const Home = () => {
                     {/*copyright*/}
                     <p>&copy; 2023 CardanoGPT. All Rights Reserved</p>
                     <div className="icons">
-                        <FaGithub />
-                        <BsMedium />
-                        <SiGitbook />
-                        <FaTwitter />
-                        <BiLogoTelegram />
-                        <FaDiscord />
+                        <a target='__blank' href='https://docs.cardanogpt.ai/' ><FaGithub /></a>
+                        <a target='__blank' href='https://medium.com/@cardanogpt'> <BsMedium /> </a>
+                        <a target='__blank' href='https://docs.cardanogpt.ai/' ><SiGitbook /></a>
+                        <a target='__blank' href='https://twitter.com/replyada'> <FaTwitter /></a>
+                        <a target='__blank' href='https://t.me/cardanogptcommunity'> <BiLogoTelegram /></a>
+                        <a target='__blank' href='https://discord.gg/7mAMbRg7VR'> <FaDiscord /></a>
                     </div>
                 </div>
             </div>
