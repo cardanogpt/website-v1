@@ -181,10 +181,19 @@ const Home = () => {
                     <nav>
                         <img src={logo} alt='logo'/>
                         <ul>
-                            <li>Learn The Concept</li>
-                            <li>Documentaion</li>
-                            <li>Disclaimer</li>
-                            <li>Blog</li>
+                            <li>
+                                <a target='__blank' href='https://docs.cardanogpt.ai/learn-the-concepts'> Learn The Concept</a>
+                            </li>
+                            <li>
+                                <a target='__blank' href='https://docs.cardanogpt.ai/'> Documentation</a>
+                            </li>
+                            <li>
+                                <a target='__blank' href='https://docs.cardanogpt.ai/disclaimer'> Disclaimer</a>
+                            </li>
+                            <li>
+                                <a target='__blank' href='https://medium.com/@cardanogpt'> Blog
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                     <hr />
@@ -606,13 +615,14 @@ const Footer = styled.footer`
             min-width:40%;
             gap: 2rem;
 
-            * {
+            & > * {
                 font-size: 1.5rem;
                 border: 1px solid #01C496;
                 width: 2rem;
                 height: 2rem;
                 padding: 0.2rem 0.2rem;
                 border-radius: 50%;
+                color: #fff;
             }
         }
     }
