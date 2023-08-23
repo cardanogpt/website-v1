@@ -519,7 +519,7 @@ const FeaturesII = styled.div`
         }
     }
 
-    @media screen and (${device.lg}) {
+    @media screen and (${device.md}) {
         flex-direction: column;
         .text {
             width: 100%;
@@ -528,6 +528,9 @@ const FeaturesII = styled.div`
             flex-direction: column;
             gap: 2rem;
         }
+        
+    }
+    @media screen and (${device.lg}) {
         h1 {
             font-size: 3rem;
         }
