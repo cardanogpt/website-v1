@@ -525,6 +525,7 @@ const FeaturesII = styled.div`
 
     @media screen and (${device.md}) {
         flex-direction: column;
+        margin:0 2rem;
         .text {
             width: 100%;
         }
