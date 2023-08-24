@@ -75,12 +75,12 @@ const Home = () => {
                     <Card
                     icon={<FaRobot size='3rem' />}
                     heading={'Custom AI Bots'}
-                    text={"CardanoGPT is pioneering a new era in the crypto social space with tailor-made Al bots for platforms like Twitter, Telegram, and Discord.<br/>                Trained on specific datasets, these bots serve as community moderator, central hubs for information, providing instantaneous support wherever they're deployed."}
+                    text={"CardanoGPT is pioneering a new era in the crypto social space with tailor-made Al bots for platforms like Twitter, Telegram, and Discord.\nTrained on specific datasets, these bots serve as community moderator, central hubs for information, providing instantaneous support wherever they're deployed."}
                     />
                     <Card
                     icon={<LuKey size='3rem' />}
                     heading={'SDK & API Access'}
-                    text={"For developers and enterprises, Our API & SDK opens doors to integrating specific CardanoGPT Al functionalities or constructing of new applications atop our Al model. \n It's a shortcut to the prowess of an advanced Al like CardanoGPT, eliminating the need to train one from the ground up"}
+                    text={"For developers and enterprises, Our API & SDK opens doors to integrating specific CardanoGPT Al functionalities or constructing of new applications atop our Al model.\nIt's a shortcut to the prowess of an advanced Al like CardanoGPT, eliminating the need to train one from the ground up"}
                     />
                     <Card
                     icon={<FaTools size='3rem' />}
