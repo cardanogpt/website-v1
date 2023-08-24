@@ -46,7 +46,7 @@ const Home = () => {
                             Exclusive AI features for CGI holders on the CardanoGPT DApp
                         </h3>
                         <div className="hero-button">
-                            <MainButton text='Join Discord'/>
+                            <MainButton href='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
                             <MainButton text='Join CGI Presale' secondary />
                         </div>
                     </div>
@@ -92,7 +92,7 @@ const Home = () => {
             </div>
         </Features>
 
-        
+    
 
         <FeaturesII className="features-2">
             <div className='text'>
@@ -224,8 +224,9 @@ export default Home;
 const Header = styled.header`
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    background-Image: url(../assets/images/hero.png);
+    min-height: 37rem;
+    height: 100%;
+    background-image: url(../assets/images/hero.png);
 
     
     .circle-two {
@@ -239,6 +240,11 @@ const Header = styled.header`
         top: 10%;
         left: 90vw;
     }
+    @media screen and (${device.md}) {
+        min-height: 60rem;
+        
+    }
+    
     
 `
 
@@ -247,7 +253,8 @@ const Hero = styled.div`
     display:flex;
     background: url(${hero});
     max-height: fit-content;
-    min-height: 110vh;
+    height: 100%;
+    min-height: 37rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -351,7 +358,7 @@ const Hero = styled.div`
         gap: 4rem;
         margin: 2rem 0;
     }
-
+    
     @media screen and (${device.md}) {
         .hero-content2 {
             margin: 0;
@@ -373,16 +380,23 @@ const Hero = styled.div`
         &.showcase2 {
             min-height: 80rem;
         }
-        
         h1 {
             font-size: 3rem;
         }
+        
+        
         
     }
     @media screen and (max-width:1200px) {
         .circle-two {
             display: none;
         }
+    }
+    @media screen and (${device.sm}) {
+        h1 {
+            font-size: 2.5rem;
+        }
+        
     }
 `
 
