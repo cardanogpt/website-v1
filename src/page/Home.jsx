@@ -15,7 +15,6 @@ import {BsMedium} from 'react-icons/bs';
 import {LuKey} from 'react-icons/lu';
 import {BiLogoTelegram} from 'react-icons/bi';
 import {SiGitbook} from 'react-icons/si';
-import {CgMenu} from 'react-icons/cg';
 
 import { device } from '../breakpoint'
 import Nav from '../components/Buttons/Nav'
