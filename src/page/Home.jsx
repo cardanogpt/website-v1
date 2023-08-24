@@ -560,17 +560,23 @@ const Media = styled.div`
         font-size: 2rem;
         gap: 2rem;
     }
+    .img-container {
+        display: flex;
+        
+    }
     
     img {
         max-width: 100%;
     }
+    a {
+        width: 100%;
+    }
     @media screen and (${device.md}) {
         .img-container {
         display: flex;
-        width: 100%;
         align-items: center;
         justify-content: space-around;
-        img {
+        a {
             width: 45%;
         }
     }
@@ -673,11 +679,6 @@ const Footer = styled.footer`
             margin-top: 2rem;
             min-width: 100%;
             gap: 0;
-            & > * {
-                font-size: 1rem;
-                width: 1.5rem;
-                height: 1.5rem;
-            }
         }
         .hero-content {
             width: 80%;
