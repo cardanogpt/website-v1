@@ -86,7 +86,7 @@ const Home = () => {
 
         <FeaturesII className="features-2">
             <div className='text'>
-              <h1 className='feature-2-heading'>CardanoGPT Ecosystem</h1>
+              <h1 className='feature-2-heading'><span>CardanoGPT</span>Ecosystem</h1>
               <p>At the heart of cardanoGPT ecosystem is the $CGI token, which is the utility token and key to accessing the marvels of the cardanoGPT Al model, API access, and our inclusive DAO</p>
             </div>
             <div className="feature-2-list">
@@ -509,6 +509,11 @@ const FeaturesII = styled.div`
     .flex-center {
         display: flex;
         align-items: center;
+    }
+    .feature-2-heading {margin:1.5rem 0;}
+    .feature-2-heading span {
+        display: inline-block;
+        color: #01CC9C;
     }
     .feature-2-list {
         display: flex;
