@@ -18,6 +18,7 @@ import {SiGitbook} from 'react-icons/si';
 import {CgMenu} from 'react-icons/cg';
 
 import { device } from '../breakpoint'
+import Nav from '../components/Buttons/Nav'
 
 
 const Home = () => {
@@ -27,17 +28,7 @@ const Home = () => {
             <Hero>
                 <div className="circle-two"></div>
                 <div className="hero-content">
-                    <nav>
-                        <img alt='CardanoGPT logo' src={logo}/>
-                        <ul className='navlist'>
-                            <li>Solutions</li>
-                            <li>Feautures</li>
-                            <li>Ecosystem</li>
-                            <li>Docs</li>
-                        </ul>
-                        <MainButton top text='Buy CGI'/>
-                        <CgMenu className='menu-button' id='menu' size='2rem' />
-                    </nav>
+                    <Nav/>
                     <div className='hero-text'>
                         <h1 className="hero-heading">
                             CardanoGPT, harnessing the potential of AI to drive web3 initiatives and communities forward
@@ -260,9 +251,7 @@ const Hero = styled.div`
     background-size: cover;
     position: relative;
 
-    .menu-button {
-        display: none;
-    }
+    
     .buy {
         color: #000;
     }
@@ -277,23 +266,10 @@ const Hero = styled.div`
         color: white;
         width:100%;
         min-height: 100vh;
-        nav {
-            width: 95%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 1%;
-        }
+ 
             
     }
-    ul {
-            display: flex;
-            justify-content: space-between;
-            list-style: none;
-            color: white;
-            width: 35%;
-            
-    }
+    
     .hero-text {
         margin-top: 5rem;
         max-width: 1024px;
@@ -367,11 +343,7 @@ const Hero = styled.div`
     
     
     @media screen and (${device.md}) {
-        .menu-button {
-            display: flex;
-
-        }
-        .navlist, .action-button {
+        .navlist-pc{
             display: none;
         }
         .hero-content2 {
@@ -380,9 +352,6 @@ const Hero = styled.div`
         }
         .hero-button {
             flex-direction: column;
-            .action-button {
-                display: block;
-            }
         }
         .info {
             flex-direction: column;
