@@ -367,8 +367,12 @@ const Hero = styled.div`
         .info {
             flex-direction: column;
         }
-        height: 120vh;
+        min-height: 60rem;
         margin: 0 2%;
+
+        &.showcase2 {
+            min-height: 80rem;
+        }
         
         h1 {
             font-size: 3rem;
@@ -588,7 +592,7 @@ const Footer = styled.footer`
         transform: translate(-50%, -50%);
         color: white;
         width:80%;
-        height: 100vh;
+        height: 100%;
 
         .section {
             display: flex;
@@ -631,6 +635,7 @@ const Footer = styled.footer`
         }
     }
     @media screen and (${device.md}) {
+        min-height: 50rem;
         nav, .copy-section {
             flex-direction: column-reverse;
             
