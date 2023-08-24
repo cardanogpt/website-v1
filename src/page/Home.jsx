@@ -80,7 +80,7 @@ const Home = () => {
                     <Card
                     icon={<LuKey size='3rem' />}
                     heading={'SDK & API Access'}
-                    text={"For developers and enterprises, Our API & SDK opens doors to integrating specific CardanoGPT Al functionalities or constructing of new applications atop our Al model. <br/> It's a shortcut to the prowess of an advanced Al like CardanoGPT, eliminating the need to train one from the ground up"}
+                    text={"For developers and enterprises, Our API & SDK opens doors to integrating specific CardanoGPT Al functionalities or constructing of new applications atop our Al model. \n It's a shortcut to the prowess of an advanced Al like CardanoGPT, eliminating the need to train one from the ground up"}
                     />
                     <Card
                     icon={<FaTools size='3rem' />}
@@ -547,6 +547,7 @@ const Media = styled.div`
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
+    margin: 2rem 0;
     h3 {
         font-size: 3rem
     }
