@@ -3,7 +3,7 @@ import { styled } from 'styled-components'
 
 const MainButton = (props) => {
   return (
-    <Button className={`action-button ${props.secondary? 'secondary': 'primary'} `} >
+    <Button href={props.href} target='__blank' className={`action-button ${props.secondary? 'secondary': 'primary'} `} >
         {props.text}
     </Button>
   )
@@ -12,7 +12,7 @@ const MainButton = (props) => {
 export default MainButton
 
 
-const Button = styled.button`
+const Button = styled.a`
     
     border-radius: 8px;
     border: 1px;
