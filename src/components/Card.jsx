@@ -2,9 +2,9 @@ import React from 'react'
 import { styled } from 'styled-components'
 import { device } from '../breakpoint'
 
-const Card = ({icon, heading, text, state}) => {
+const Card = ({icon, heading, text, light}) => {
   return (
-    <CardContainer>
+    <CardContainer className={light? 'light': 'dull'}>
         {icon?<span>{icon}</span>:''}
         <h3>{heading}</h3>
         <p>{text}</p>
@@ -22,8 +22,13 @@ const CardContainer = styled.div`
   background: linear-gradient(138deg, rgba(50, 76, 78, 0) 0%, rgba(1, 204, 157, 0.2) 100%);
   //background: rgba(1, 204, 157, 0.1);
   border: 1px solid ;
-  border-image: linear-gradient(to left top, #01C496, rgba(1, 204, 157, 0) ) 1;
   position: relative;
+  &.light {
+    border-image: linear-gradient(to left top, #01C496, rgba(1, 204, 157, 0) ) 1;
+  }
+  &.dull {
+    border-image: linear-gradient(to left top, #fff, rgba(1, 204, 157, 0) ) 1;
+  }
   p {
     font-size: 1.2rem;
     line-height: 1.5;

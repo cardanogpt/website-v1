@@ -72,7 +72,7 @@ const Home = () => {
                 </div>
 
                 <div className="feature-list">
-                    <Card
+                    <Card light
                     icon={<FaRobot size='3rem' />}
                     heading={'Custom AI Bots'}
                     text={"CardanoGPT is pioneering a new era in the crypto social space with tailor-made Al bots for platforms like Twitter, Telegram, and Discord.\nTrained on specific datasets, these bots serve as community moderator, central hubs for information, providing instantaneous support wherever they're deployed."}
