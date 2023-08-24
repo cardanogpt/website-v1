@@ -19,15 +19,17 @@ const CardContainer = styled.div`
   flex-direction: column;
   max-width: 20rem;
   padding: 30px;
-  background: linear-gradient(138deg, rgba(50, 76, 78, 0) 0%, rgba(1, 204, 157, 0.2) 100%);
+  
   //background: rgba(1, 204, 157, 0.1);
   border: 1px solid ;
   position: relative;
   &.light {
     border-image: linear-gradient(to left top, #01C496, rgba(1, 204, 157, 0) ) 1;
+    background: linear-gradient(138deg, rgba(50, 76, 78, 0) 0%, rgba(1, 204, 157, 0.2) 100%);
   }
   &.dull {
     border-image: linear-gradient(to left top, #fff, rgba(1, 204, 157, 0) ) 1;
+    background:rgba(217, 217, 217, 0.08);
   }
   p {
     font-size: 1.2rem;
