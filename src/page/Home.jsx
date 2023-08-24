@@ -601,13 +601,11 @@ const Media = styled.div`
         width: 100%;
         align-items: center;
         justify-content: space-around;
+        img {
+            width: 45%;
+        }
     }
         margin:0 1rem;
-    }
-    @media screen and (${device.md}) {
-       .img-container {
-        flex-direction: column;
-       } 
     }
 `
 
