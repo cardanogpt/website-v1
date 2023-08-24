@@ -653,10 +653,12 @@ const Footer = styled.footer`
             width: 80%;
         }
         ul {
+            margin:1rem 0;
             display: flex;
             flex-direction: column;
             text-align: left;
             align-self: self-start;
+            gap: 2rem;
         }
     }
 `
