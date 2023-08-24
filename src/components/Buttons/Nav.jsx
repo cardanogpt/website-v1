@@ -1,11 +1,13 @@
 import React, {useState} from 'react'
 import { CgMenu } from 'react-icons/cg'
 import {IoCloseCircleOutline} from 'react-icons/io5';
-import MainButton from './MainButton'
+//import MainButton from './MainButton'
 import logo from '../../assets/images/logo.png'
 import styled from 'styled-components'
 import { device } from '../../breakpoint'
 import hero from '../../assets/images/hero.png'
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 const Nav = () => {
     const [nav, setNav] = useState(false);
@@ -24,9 +26,13 @@ const Nav = () => {
             <li>Ecosystem</li>
             <li><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
         </ul>
-        <MainButton top text='Buy CGI'/>
+        <Popup trigger={<button className='modal-button'> Buy CGI</button>} position="right center" modal>
+            <div className='popup'>Coming Soon!!</div>
+        </Popup>
+        
         <CgMenu onClick={toggleNav} className='menu-button' id='menu' size='4rem' />
         
+
         <div className={nav? 'navlist navlist-mobile': 'navlist'}>
             <div className='top-mobile'>
                 <img alt='CardanoGPT logo' src={logo}/>
@@ -39,7 +45,9 @@ const Nav = () => {
                 <li onClick={closeNav}>Ecosystem</li>
                 <li onClick={closeNav}><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
             </ul>
-            <MainButton text='Buy CGI'/>
+            <Popup trigger={<button className='modal-button'>Buy CGI</button>} position="right center" modal>
+            <div className='popup'>Coming Soon!!</div>
+        </Popup>
         </div>
 
     </NavBar>
@@ -49,9 +57,27 @@ const Nav = () => {
 export default Nav
 
 const NavBar = styled.nav`
+    .modal-button {
+        border-radius: 8px;
+        border: 1px;
+        width: 200px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        padding: 13px 24px;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease-in-out;
+        background-color: #01CC9C;
+        color: #000;
+        &:hover 
+        { background-color: #3d70c1; 
+        border: 3px solid white;
+        outline: 3px solid #4287f5;
+        }
+    }
     .menu-button {
         display: none;
     }
+    
     width: 95%;
     display: flex;
     justify-content: space-between;
@@ -115,7 +141,7 @@ const NavBar = styled.nav`
         .navlist-mobile {
             display: block;
         }
-        &> .action-button {
+        &> .modal-button {
             display: none;
         }
     }
