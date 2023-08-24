@@ -11,7 +11,6 @@ const Nav = () => {
     const [nav, setNav] = useState(false);
   const toggleNav = () => {
     setNav(!nav);
-    console.log(nav);
   };
   const closeNav = () => {
     setNav(false);
