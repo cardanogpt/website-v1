@@ -27,6 +27,7 @@ const CardContainer = styled.div`
   p {
     font-size: 1.2rem;
     line-height: 1.5;
+    white-space: pre-wrap;
   }
   span {
     display: flex;
