@@ -672,7 +672,7 @@ const Footer = styled.footer`
     }
 
     @media screen and (${device.md}) {
-        min-height: 50rem;
+        min-height: 60rem;
         nav, .copy-section {
             flex-direction: column-reverse;
             
