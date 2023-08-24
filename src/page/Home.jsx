@@ -515,7 +515,7 @@ const FeaturesII = styled.div`
     }
     .feature-2-heading {margin:1.5rem 0;}
     .feature-2-heading span {
-        display: inline-block;
+        display: block;
         color: #01CC9C;
     }
     .feature-2-list {
