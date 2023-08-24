@@ -152,9 +152,11 @@ const Home = () => {
             </h3>
             <div className='img-container'>
                 <a target='__blank' href='https://bitcoinist.com/cardanogpt-launches-ai-powered-tools-to-increase-productivity-of-cardano-projects-launches-cgi-private-round-whitelist/'>
-                <img alt='bitcoinist logo' src={bitcoin} />
+                    <img alt='bitcoinist logo' src={bitcoin} />
+                </a>
                 <a target='__blank' href='https://markets.businessinsider.com/news/stocks/cardanogpt-an-innovative-cardano-project-looking-to-utilize-artificial-intelligence-to-increase-productivity-cardano-projects-1032531384'>
-                <img alt='business insider logo' src={business} />
+                    <img alt='business insider logo' src={business} />
+                </a>
             </div>
                 <h3>Partners</h3>
                 <img alt='foreon logo' src={foreon} />
