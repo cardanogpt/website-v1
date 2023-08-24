@@ -613,7 +613,7 @@ const Footer = styled.footer`
     display:flex;
     background: url(${token});
     min-height:100vh;
-    height: 60rem;
+    height: 50rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -653,7 +653,7 @@ const Footer = styled.footer`
             height: 40%;
         }
         hr {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.048);
         }
         nav {
             gap: 2rem;
