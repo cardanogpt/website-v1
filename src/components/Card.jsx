@@ -8,23 +8,23 @@ const Card = ({icon, heading, text, light}) => {
       {
         light?
         <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 400 619" fill="none" preserveAspectRatio='none'>
-        <path d="M1 1H399V558.991L342.529 618H1V1Z" fill="#D9D9D9" fill-opacity="0.08" stroke="url(#paint0_linear_8_1428)" stroke-width="2"/>
+        <path d="M1 1H399V558.991L342.529 618H1V1Z" fill="#D9D9D9" fillOpacity="0.08" stroke="url(#paint0_linear_8_1428)" strokeWidth="2"/>
         <defs>
           <linearGradient id="paint0_linear_8_1428" x1="85.913" y1="447.798" x2="-96.041" y2="47.0578" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#01CC9C"/>
-            <stop offset="1" stop-color="#324C4E"/>
+            <stop stopColor="#01CC9C"/>
+            <stop offset="1" stopColor="#324C4E"/>
           </linearGradient>
         </defs>
       </svg> 
       :
 
       <svg xmlns="http://www.w3.org/2000/svg" width="400" height="555" viewBox="0 0 400 555" fill="none" preserveAspectRatio='none'>
-        <path d="M0.528724 0H400V495.777L339.762 555H0L0.528724 0Z" fill="#D9D9D9" fill-opacity="0.08"/>
-        <path d="M1.02825 0.5H399.5V495.568L339.557 554.5H0.500477L1.02825 0.5Z" stroke="url(#paint0_linear_8_1441)" stroke-opacity="0.5"/>
+        <path d="M0.528724 0H400V495.777L339.762 555H0L0.528724 0Z" fill="#D9D9D9" fillOpacity="0.08"/>
+        <path d="M1.02825 0.5H399.5V495.568L339.557 554.5H0.500477L1.02825 0.5Z" stroke="url(#paint0_linear_8_1441)" strokeOpacity="0.5"/>
         <defs>
           <linearGradient id="paint0_linear_8_1441" x1="86.3278" y1="401.499" x2="-65.1618" y2="29.872" gradientUnits="userSpaceOnUse">
-            <stop stop-color="white"/>
-            <stop offset="1" stop-color="white" stop-opacity="0"/>
+            <stop stopColor="white"/>
+            <stop offset="1" stopColor="white" stopOpacity="0"/>
           </linearGradient>
         </defs>
       </svg>
