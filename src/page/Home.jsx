@@ -35,8 +35,8 @@ const Home = () => {
                             <li>Ecosystem</li>
                             <li>Docs</li>
                         </ul>
-                        <MainButton text='Buy CGI'/>
-                        <CgMenu className='menu-button' size='2rem' />
+                        <MainButton className='buy' text='Buy CGI'/>
+                        <CgMenu className='menu-button' id='menu' size='2rem' />
                     </nav>
                     <div className='hero-text'>
                         <h1 className="hero-heading">
@@ -259,23 +259,14 @@ const Hero = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    nav {
-        width: 95%;
-        .menu-button {
-            display: none;
-        }
-        @media screen and (${device.md}) {
-            .navlist, .action-button {
-                display: none;
-            }
-            .menu-buttton {
-                display: block;
-            }
 
-            
-        }
-        
+    .menu-button {
+        display: none;
     }
+    .buy {
+        color: #000;
+    }
+    
     .hero-content{
         margin-top: 1%;
         display: flex;
@@ -283,12 +274,25 @@ const Hero = styled.div`
         text-align: center;
         align-items: center;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         color: white;
         width:100%;
         min-height: 100vh;
+        nav {
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1%;
+        }
+            
+    }
+    ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            color: white;
+            width: 30%;
+            
     }
     .hero-text {
         margin-top: 5rem;
@@ -312,12 +316,13 @@ const Hero = styled.div`
     }
     &.showcase2 {
         background: url(${token});
-        height:170vh;
         max-height: fit-content;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        min-height: 100vh;
+        height: 60rem;
         
         .hero-content, .hero-content2 {
             text-align: center;
@@ -359,11 +364,19 @@ const Hero = styled.div`
         margin: 2rem 0;
     }
     
+    
+    
     @media screen and (${device.md}) {
+        .menu-button {
+            display: flex;
+
+        }
+        .navlist, .action-button {
+            display: none;
+        }
         .hero-content2 {
             margin: 0;
             width: 80%;
-            margin: 0 10px;
         }
         .hero-button {
             flex-direction: column;
@@ -375,10 +388,9 @@ const Hero = styled.div`
             flex-direction: column;
         }
         min-height: 60rem;
-        margin: 0 2%;
 
         &.showcase2 {
-            min-height: 80rem;
+            min-height: 90rem;
         }
         h1 {
             font-size: 3rem;
@@ -445,7 +457,7 @@ const Showcase = styled.div`
         .showcase {
             width: 100%;
             margin: 0;
-            padding-left: 3rem;
+            padding-left: 1rem;
             align-self: self-start;
             
         }
@@ -483,7 +495,8 @@ const Features = styled.div`
         align-items: center;
         margin: 2rem 0; 
         span {
-            width: 20rem;
+            max-width: 20rem;
+            width: 100%;
             height: 15px;
             color: #fff;
             border-radius: 20px;
@@ -501,6 +514,7 @@ const Features = styled.div`
             flex-direction: column;
             gap: 2rem;
         }
+        
         h1 {
             font-size: 3rem;
         }
@@ -554,6 +568,11 @@ const FeaturesII = styled.div`
             font-size: 3rem;
         }
     }
+    @media screen and (${device.sm}) {
+        h1 {
+            font-size: 2rem;
+        }
+    }
 `
 
 const Media = styled.div`
@@ -585,18 +604,36 @@ const Media = styled.div`
     }
         margin:0 1rem;
     }
+    @media screen and (${device.md}) {
+       .img-container {
+        flex-direction: column;
+       } 
+    }
 `
 
 const Footer = styled.footer`
     display:flex;
     background: url(${token});
-    height:100vh;
-    max-height: fit-content;
+    min-height:100vh;
+    height: 60rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1%;
+        }
+        ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        color: white;
+        width: 30%;
+        
+    }
     .hero-content {
         display: flex;
         flex-direction: column;
@@ -623,38 +660,41 @@ const Footer = styled.footer`
         nav {
             gap: 2rem;
             margin: 20px 0;
-            ul {
-                width: 45%;
-            }
         }
+        
         .copy-section {
             display: flex;
             justify-content: space-between;
             align-items: center;
             font-size: 0.8rem;
+            width: 100%;
         }
-        .icons {
-            display: flex;
-            justify-content: space-between;
-            min-width:40%;
-            gap: 2rem;
+        
+    }
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
 
-            & > * {
-                font-size: 1.5rem;
-                border: 1px solid #01C496;
-                width: 2rem;
-                height: 2rem;
-                padding: 0.2rem 0.2rem;
-                border-radius: 50%;
-                color: #fff;
-            }
+        & > * {
+            font-size: 1.5rem;
+            border: 1px solid #01C496;
+            width: 2rem;
+            height: 2rem;
+            padding: 0.2rem 0.2rem;
+            border-radius: 50%;
+            color: #fff;
         }
     }
+
     @media screen and (${device.md}) {
         min-height: 50rem;
         nav, .copy-section {
             flex-direction: column-reverse;
             
+        }
+        nav ul {
+            width: 100%;
         }
         .copy-section p {
             margin-top: 10%;
@@ -663,7 +703,14 @@ const Footer = styled.footer`
             align-self: self-start;
         }
         .icons {
-            justify-content: space-around;  
+            margin-top: 2rem;
+            min-width: 100%;
+            gap: 0;
+            & > * {
+                font-size: 1rem;
+                width: 1.5rem;
+                height: 1.5rem;
+            }
         }
         .hero-content {
             width: 80%;
