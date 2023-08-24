@@ -35,7 +35,7 @@ const Home = () => {
                             <li>Ecosystem</li>
                             <li>Docs</li>
                         </ul>
-                        <MainButton className='buy' text='Buy CGI'/>
+                        <MainButton top text='Buy CGI'/>
                         <CgMenu className='menu-button' id='menu' size='2rem' />
                     </nav>
                     <div className='hero-text'>
@@ -291,7 +291,7 @@ const Hero = styled.div`
             justify-content: space-between;
             list-style: none;
             color: white;
-            width: 30%;
+            width: 35%;
             
     }
     .hero-text {
@@ -631,7 +631,7 @@ const Footer = styled.footer`
         justify-content: space-between;
         list-style: none;
         color: white;
-        width: 30%;
+        width: 55%;
         
     }
     .hero-content {
