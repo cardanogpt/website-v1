@@ -4,7 +4,7 @@ import { device } from '../../breakpoint'
 
 const PillButton = (props) => {
   return (
-    <Button className={props.centerDark? 'center-dark': ''}>
+    <Button href={props.href} target='__blank' className={props.centerDark? 'center-dark': ''}>
         {props.text}
     </Button>
   )
@@ -12,7 +12,7 @@ const PillButton = (props) => {
 
 export default PillButton
 
-const Button = styled.button`
+const Button = styled.a`
     
     border-radius: 8px;
     font-size: 1rem;
