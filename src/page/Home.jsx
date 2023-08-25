@@ -138,7 +138,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <PillButton centerDark text={'Dive into our Tokenomics'} />
+                <PillButton href='https://docs.cardanogpt.ai/tokenomics-and-distribution' centerDark text={'Dive into our Tokenomics'} />
             </div>
             
             
@@ -167,7 +167,7 @@ const Home = () => {
                     <h2>Support & Contact</h2>
                     <p>Got Queries? Explore our Documentation</p>
                     <p>For bespoke? AI tools development, kindly reach us at:</p>
-                    <PillButton centerDark text={'Contact@cardanogpt.ai'} />
+                    <PillButton href='mailto:Contact@cardanogpt.ai' centerDark text={'Contact@cardanogpt.ai'} />
                     
                 </div>
                 <div >
