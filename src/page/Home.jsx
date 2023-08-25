@@ -221,8 +221,9 @@ const Header = styled.header`
     min-height: 37rem;
     height: 100%;
     background-image: url(../assets/images/hero.png);
-
-    
+    .action-button {
+        width: 250px;
+    }
     .circle-two {
         position: absolute;
         width: 50%;
