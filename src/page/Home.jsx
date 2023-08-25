@@ -37,7 +37,7 @@ const Home = () => {
                         </h3>
                         <div className="hero-button">
                             <MainButton href='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
-                            <MainButton text='Join CGI Presale' secondary />
+                            <MainButton href='https://zealy.io/c/replyada' text='Join Pre Sale Whitelist' secondary />
                         </div>
                     </div>
                 </div>
