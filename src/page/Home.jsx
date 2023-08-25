@@ -292,6 +292,15 @@ const Hero = styled.div`
     .hero-button {
         display: flex;
         gap: 2rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        @media screen and (${device.md}) {
+            .action-button {
+                width: 80%;
+            }
+
+        }
     }
     &.showcase2 {
         background: url(${token});
