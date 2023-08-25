@@ -91,7 +91,8 @@ const NavBar = styled.nav`
             justify-content: space-between;
             list-style: none;
             color: white;
-            width: 35%;
+            min-width: 35%;
+            gap: 0.5rem;
             
     }
     .navlist-mobile {
