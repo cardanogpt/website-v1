@@ -12,6 +12,9 @@ body {
   width: 100%;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 .popup {
   background: #19202B;
   color: white;
