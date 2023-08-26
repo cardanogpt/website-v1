@@ -17,7 +17,7 @@ import {BiLogoTelegram} from 'react-icons/bi';
 import {SiGitbook} from 'react-icons/si';
 
 import { device } from '../breakpoint'
-import Nav from '../components/Buttons/Nav'
+import Nav from '../components/Nav'
 
 
 const Home = () => {

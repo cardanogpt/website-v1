@@ -4,7 +4,7 @@ import {IoCloseCircleOutline} from 'react-icons/io5';
 //import MainButton from './MainButton'
 import logo from '../../assets/images/logo.png'
 import styled from 'styled-components'
-import { device } from '../../breakpoint'
+import { device } from '../breakpoint'
 import hero from '../../assets/images/hero.png'
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
