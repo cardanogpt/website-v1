@@ -43,7 +43,7 @@ const Home = () => {
                 </div>
             </Hero>
         </Header>
-        <Showcase className="showcases">
+        <Showcase className="showcases" id='solutions'>
             <div className="circle"></div>
             <div className="showcase">
                 <h1>Our Solutons</h1>
@@ -84,7 +84,7 @@ const Home = () => {
 
     
 
-        <FeaturesII className="features-2">
+        <FeaturesII className="features-2" id='ecosystem'>
             <div className='text'>
               <h1 className='feature-2-heading'><span>CardanoGPT</span>Ecosystem</h1>
               <p>At the heart of cardanoGPT ecosystem is the $CGI token, which is the utility token and key to accessing the marvels of the cardanoGPT Al model, API access, and our inclusive DAO</p>

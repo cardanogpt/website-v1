@@ -21,9 +21,9 @@ const Nav = () => {
     <NavBar>
         <img alt='CardanoGPT logo' src={logo}/>
         <ul className='navlist-pc'>
-            <li>Solutions</li>
+            <li><a href='#solutions'>Solutions</a></li>
             <li><a href='#features'>Features</a></li>
-            <li>Ecosystem</li>
+            <li><a href='#ecosystem'>Ecosystem</a></li>
             <li><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
         </ul>
         <Popup trigger={<button className='modal-button'> Buy CGI</button>} position="right center" modal>
@@ -40,9 +40,9 @@ const Nav = () => {
                 className='menu-button-mobile' id='menu' size='4rem' />
             </div>
             <ul>
-                <li onClick={closeNav}>Solutions</li>
+                <li onClick={closeNav}><a href='#solutions'>Solutions</a></li>
                 <li onClick={closeNav}><a href='#features'>Features</a></li>
-                <li onClick={closeNav}>Ecosystem</li>
+                <li onClick={closeNav}><a href='#ecosystem'>Ecosystem</a></li>
                 <li onClick={closeNav}><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
             </ul>
             <Popup trigger={<button className='modal-button'>Buy CGI</button>} position="right center" modal>
