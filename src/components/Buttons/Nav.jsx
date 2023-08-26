@@ -41,7 +41,7 @@ const Nav = () => {
             </div>
             <ul>
                 <li onClick={closeNav}>Solutions</li>
-                <li onClick={closeNav}>Feautures</li>
+                <li onClick={closeNav}><a href='#features'>Features</a></li>
                 <li onClick={closeNav}>Ecosystem</li>
                 <li onClick={closeNav}><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
             </ul>
