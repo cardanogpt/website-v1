@@ -54,7 +54,7 @@ const Home = () => {
             </div>
         </Showcase>
 
-        <Features>
+        <Features id='features'>
             <div className='content'>
                 <div className='features-heading'>
                     <h1>Features</h1>

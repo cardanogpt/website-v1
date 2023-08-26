@@ -22,7 +22,7 @@ const Nav = () => {
         <img alt='CardanoGPT logo' src={logo}/>
         <ul className='navlist-pc'>
             <li>Solutions</li>
-            <li>Feautures</li>
+            <li><a href='#features'>Features</a></li>
             <li>Ecosystem</li>
             <li><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
         </ul>
