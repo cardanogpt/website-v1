@@ -296,12 +296,7 @@ const Hero = styled.div`
         width: 100%;
         align-items: center;
         justify-content: center;
-        @media screen and (${device.md}) {
-            .action-button {
-                width: 80%;
-            }
-
-        }
+        
     }
     &.showcase2 {
         background: url(${token});
@@ -354,7 +349,11 @@ const Hero = styled.div`
     }
     
     
-    
+    @media screen and (max-width:1200px) {
+        .circle-two {
+            display: none;
+        }
+    }
     @media screen and (${device.md}) {
         .navlist-pc{
             display: none;
@@ -377,14 +376,12 @@ const Hero = styled.div`
         h1 {
             font-size: 3rem;
         }
-        
-        
-        
-    }
-    @media screen and (max-width:1200px) {
-        .circle-two {
-            display: none;
+        .hero-button .action-button {
+                width: 80%;
         }
+        
+        
+        
     }
     @media screen and (${device.sm}) {
         h1 {
@@ -541,6 +538,12 @@ const FeaturesII = styled.div`
         }
     }
 
+    
+    @media screen and (${device.lg}) {
+        h1 {
+            font-size: 3rem;
+        }
+    }
     @media screen and (${device.md}) {
         flex-direction: column;
         margin:0 2rem;
@@ -552,11 +555,6 @@ const FeaturesII = styled.div`
             gap: 2rem;
         }
         
-    }
-    @media screen and (${device.lg}) {
-        h1 {
-            font-size: 3rem;
-        }
     }
     @media screen and (${device.sm}) {
         h1 {
@@ -593,6 +591,7 @@ const Media = styled.div`
         width: 100%;
     }
     @media screen and (${device.md}) {
+        margin:0 1rem;
         .img-container {
         display: flex;
         align-items: center;
@@ -600,8 +599,8 @@ const Media = styled.div`
         a {
             width: 45%;
         }
-    }
-        margin:0 1rem;
+        }
+        
     }
 `
 
