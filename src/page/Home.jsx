@@ -29,10 +29,10 @@ const Home = () => {
                 <div className="hero-content">
                     <Nav/>
                     <div className='hero-text'>
-                        <h1 className="hero-heading">
+                        <h1 className="hero-heading waivy">
                             CardanoGPT, harnessing the potential of AI to drive web3 initiatives and communities forward
                         </h1>
-                        <h3 className="hero-subheading">
+                        <h3 className="hero-subheading waivy">
                             Exclusive AI features for CGI holders on the CardanoGPT DApp
                         </h3>
                         <div className="hero-button">
@@ -46,7 +46,7 @@ const Home = () => {
         <Showcase className="showcases" id='solutions'>
             <div className="circle"></div>
             <div className="showcase">
-                <h1>Our Solutons</h1>
+                <h1 className='waivy'>Our Solutons</h1>
                 <p>At CardanoGPT, our mission is to deploy AI-driven tools that elevate the performance and catalyze productivity of Cardano Projects</p>
             </div>
             <div className="showcase_img">
@@ -56,7 +56,7 @@ const Home = () => {
 
         <Features id='features'>
             <div className='content'>
-                <div className='features-heading'>
+                <div className='features-heading waivy'>
                     <h1>Features</h1>
                     <span></span>
                 </div>
@@ -86,7 +86,7 @@ const Home = () => {
 
         <FeaturesII className="features-2" id='ecosystem'>
             <div className='text'>
-              <h1 className='feature-2-heading'><span>CardanoGPT</span>Ecosystem</h1>
+              <h1 className='feature-2-heading'><span className='green'>CardanoGPT</span><span className='waivy'>Ecosystem</span></h1>
               <p>At the heart of cardanoGPT ecosystem is the $CGI token, which is the utility token and key to accessing the marvels of the cardanoGPT Al model, API access, and our inclusive DAO</p>
             </div>
             <div className="feature-2-list">
@@ -111,7 +111,7 @@ const Home = () => {
 
         <Hero className='showcase2'>
             <div className="hero-content2">
-                <h1>&#x24;CGI Token</h1>
+                <h1 className='waivy'>&#x24;CGI Token</h1>
                 <h2>Powering the CardanoGPT Ecosystem</h2>
 
                 <div className="info">
@@ -146,9 +146,9 @@ const Home = () => {
         </Hero>
 
         <Media>
-            <h3 className="media-heading">
+            <h2 className="media-heading waivy">
                 On The Media
-            </h3>
+            </h2>
             <div className='img-container'>
                 <a target='__blank' href='https://bitcoinist.com/cardanogpt-launches-ai-powered-tools-to-increase-productivity-of-cardano-projects-launches-cgi-private-round-whitelist/'>
                     <img alt='bitcoinist logo' src={bitcoin} />
@@ -157,14 +157,14 @@ const Home = () => {
                     <img alt='business insider logo' src={business} />
                 </a>
             </div>
-                <h3>Partners</h3>
+                <h2 className='waivy'>Partners</h2>
                 <img alt='foreon logo' src={foreon} />
         </Media>
 
         <Footer>
             <div className="hero-content">
                 <div className='section'>
-                    <h2>Support & Contact</h2>
+                    <h2 className='waivy'>Support & Contact</h2>
                     <p>Got Queries? Explore our Documentation</p>
                     <p>For bespoke? AI tools development, kindly reach us at:</p>
                     <PillButton href='mailto:Contact@cardanogpt.ai' centerDark text={'Contact@cardanogpt.ai'} />
@@ -524,7 +524,7 @@ const FeaturesII = styled.div`
         margin-bottom: 7rem;
     }
     .feature-2-heading {margin:1.5rem 0;}
-    .feature-2-heading span {
+    .feature-2-heading .green {
         display: block;
         color: #01CC9C;
     }
