@@ -31,7 +31,7 @@ const Card = ({icon, heading, text, light}) => {
       }
       <div>
         {icon?<span>{icon}</span>:''}
-        <h3>{heading}</h3>
+        <h3 className='waivy'>{heading}</h3>
         <p>{text}</p>
       </div>
     </CardContainer>
