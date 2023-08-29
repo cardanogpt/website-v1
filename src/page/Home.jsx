@@ -15,6 +15,8 @@ import {BsMedium} from 'react-icons/bs';
 import {LuKey} from 'react-icons/lu';
 import {BiLogoTelegram} from 'react-icons/bi';
 import {SiGitbook} from 'react-icons/si';
+import PopupButton from '../components/Buttons/PopupButton';
+
 
 import { device } from '../breakpoint'
 import Nav from '../components/Nav'
@@ -37,7 +39,7 @@ const Home = () => {
                         </h3>
                         <div className="hero-button">
                             <MainButton href='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
-                            <MainButton href='https://zealy.io/c/replyada' text='Join Pre Sale Whitelist' secondary />
+                            <PopupButton text='Join Pre Sale Whitelist' secondary />
                         </div>
                     </div>
                 </div>
@@ -270,8 +272,6 @@ const Hero = styled.div`
         color: white;
         width:100%;
         min-height: 100vh;
- 
-            
     }
     
     .hero-text {
@@ -296,6 +296,19 @@ const Hero = styled.div`
         width: 100%;
         align-items: center;
         justify-content: center;
+        .popup-button {
+            border-radius: 8px;
+            border: 1px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            padding: 13px 24px;
+            box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease-in-out;
+            background-color: transparent; color: #fff ; border: 1px double #01C496;
+            &:hover 
+            { background-color: #000; color: #fff; }
+            
+        }
         
     }
     &.showcase2 {
@@ -376,7 +389,7 @@ const Hero = styled.div`
         h1 {
             font-size: 3rem;
         }
-        .hero-button .action-button {
+        .hero-button .action-button, .hero-button .popup-button {
                 width: 80%;
         }
         
