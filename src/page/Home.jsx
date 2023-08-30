@@ -160,7 +160,9 @@ const Home = () => {
                 </a>
             </div>
                 <h2 className='waivy'>Partners</h2>
+                <a target='__blank' href='https://foreon.network/'>
                 <img alt='foreon logo' src={foreon} />
+                </a>
         </Media>
 
         <Footer>
