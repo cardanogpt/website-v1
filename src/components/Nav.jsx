@@ -19,7 +19,7 @@ const Nav = () => {
   };
   return (
     <NavBar>
-        <img alt='CardanoGPT logo' src={logo}/>
+        <a href='/' ><img alt='CardanoGPT logo' src={logo}/></a>
         <ul className='navlist-pc'>
             <li><a href='#solutions'>Solutions</a></li>
             <li><a href='#features'>Features</a></li>
