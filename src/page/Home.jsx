@@ -169,7 +169,7 @@ const Home = () => {
             <div className="hero-content">
                 <div className='section'>
                     <h2 className='waivy'>Support & Contact</h2>
-                    <p>Got Queries? Explore our Documentation</p>
+                    <p>Got Queries? Explore our <a target='__blank' href='https://docs.cardanogpt.ai/' >Documentation</a></p>
                     <p>For bespoke? AI tools development, kindly reach us at</p>
                     <PillButton href='mailto:Contact@cardanogpt.ai' centerDark text={'Contact@cardanogpt.ai'} />
                     
