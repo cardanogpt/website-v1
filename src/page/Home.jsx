@@ -118,7 +118,7 @@ const Home = () => {
 
                 <div className="info">
                     <div className="details">
-                        <h3 className='headings-details'>Token Details:</h3>
+                        <h3 className='headings-details'>Token Details</h3>
                         <div className='buttons'>
                             <PillButton text={'Token Name: CARDANOGPT'}/>
                             <PillButton text={'Ticker:   CGI'} />
@@ -127,7 +127,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="dist">
-                        <h3 className='headings-details'>Token Distribution:</h3>
+                        <h3 className='headings-details'>Token Distribution</h3>
                         <div className='buttons'>
                             <PillButton text={'Team & Advisors: 9%'} />
                             <PillButton text={'Airdrop: 3%'} />
@@ -168,7 +168,7 @@ const Home = () => {
                 <div className='section'>
                     <h2 className='waivy'>Support & Contact</h2>
                     <p>Got Queries? Explore our Documentation</p>
-                    <p>For bespoke? AI tools development, kindly reach us at:</p>
+                    <p>For bespoke? AI tools development, kindly reach us at</p>
                     <PillButton href='mailto:Contact@cardanogpt.ai' centerDark text={'Contact@cardanogpt.ai'} />
                     
                 </div>
