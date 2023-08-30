@@ -161,7 +161,7 @@ const Home = () => {
             </div>
                 <h2 className='waivy'>Partners</h2>
                 <a target='__blank' href='https://foreon.network/'>
-                <img alt='foreon logo' src={foreon} />
+                    <img alt='foreon logo' src={foreon} />
                 </a>
         </Media>
 
@@ -583,6 +583,7 @@ const Media = styled.div`
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     min-height: 100vh;
     margin: 2rem 0;
     h3 {
