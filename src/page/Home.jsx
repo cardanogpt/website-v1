@@ -200,7 +200,7 @@ const Home = () => {
                     {/*copyright*/}
                     <p>&copy; 2023 CardanoGPT. All Rights Reserved</p>
                     <div className="icons">
-                        <a target='__blank' href='https://docs.cardanogpt.ai/' ><FaGithub /></a>
+                        <a target='__blank' href='https://github.com/cardanogpt' ><FaGithub /></a>
                         <a target='__blank' href='https://medium.com/@cardanogpt'> <BsMedium /> </a>
                         <a target='__blank' href='https://docs.cardanogpt.ai/' ><SiGitbook /></a>
                         <a target='__blank' href='https://twitter.com/replyada'> <FaTwitter /></a>
