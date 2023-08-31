@@ -3,7 +3,7 @@ import { styled } from 'styled-components'
 
 const MainButton = (props) => {
   return (
-    <Button href={props.href} target='__blank' className={`action-button ${props.secondary? 'secondary': 'primary'} `} >
+    <Button href={props.href} target={props.target? '': '__blank'} className={`action-button ${props.secondary? 'secondary': 'primary'} `} >
         {props.text}
     </Button>
   )

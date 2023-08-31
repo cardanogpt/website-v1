@@ -25,7 +25,7 @@ const Nav = () => {
             <li><a href='#ecosystem'>Ecosystem</a></li>
             <li><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
         </ul>
-        <MainButton className='modal-button' href='https://sale.cardanogpt.ai/' text='Buy CGI' />
+        <MainButton target='onTab' className='modal-button' href='https://sale.cardanogpt.ai/' text='Buy CGI' />
         
         <CgMenu onClick={toggleNav} className='menu-button' id='menu' size='4rem' />
         
