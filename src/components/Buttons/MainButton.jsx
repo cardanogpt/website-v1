@@ -13,10 +13,10 @@ export default MainButton
 
 
 const Button = styled.a`
-    
+
     border-radius: 8px;
     border: 1px;
-    width: 200px;
+    width: 250px;
     font-size: 1.2rem;
     cursor: pointer;
     padding: 13px 24px;
