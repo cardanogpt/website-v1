@@ -82,7 +82,9 @@ const NavBar = styled.nav`
     align-items: center;
     padding: 0 1%;
 
-            
+    &> .action-button {
+        width: 200px;
+    }     
 
     ul {
             display: flex;
