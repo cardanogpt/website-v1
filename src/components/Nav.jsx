@@ -1,13 +1,12 @@
 import React, {useState} from 'react'
 import { CgMenu } from 'react-icons/cg'
 import {IoCloseCircleOutline} from 'react-icons/io5';
-//import MainButton from './MainButton'
+import MainButton from './Buttons/MainButton'
 import logo from '../assets/images/logo.png'
 import styled from 'styled-components'
 import { device } from '../breakpoint'
 import hero from '../assets/images/hero.png'
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
+//import 'reactjs-popup/dist/index.css';
 
 const Nav = () => {
     const [nav, setNav] = useState(false);
@@ -26,9 +25,7 @@ const Nav = () => {
             <li><a href='#ecosystem'>Ecosystem</a></li>
             <li><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
         </ul>
-        <Popup trigger={<button className='modal-button'> Buy CGI</button>} position="right center" modal>
-            <div className='popup'>Coming Soon!!</div>
-        </Popup>
+        <MainButton className='modal-button' href='https://zealy.io/c/replyada/questboard' text='Buy CGI' />
         
         <CgMenu onClick={toggleNav} className='menu-button' id='menu' size='4rem' />
         
@@ -45,9 +42,10 @@ const Nav = () => {
                 <li onClick={closeNav}><a href='#ecosystem'>Ecosystem</a></li>
                 <li onClick={closeNav}><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
             </ul>
-            <Popup trigger={<button className='modal-button'>Buy CGI</button>} position="right center" modal>
+            {/* <Popup trigger={<button className='modal-button'>Buy CGI</button>} position="right center" modal>
             <div className='popup'>Coming Soon!!</div>
-        </Popup>
+            </Popup> */}
+            <MainButton href='https://zealy.io/c/replyada/questboard' text='Buy CGI' />
         </div>
 
     </NavBar>
@@ -142,7 +140,7 @@ const NavBar = styled.nav`
         .navlist-mobile {
             display: block;
         }
-        &> .modal-button {
+        &> .action-button {
             display: none;
         }
     }

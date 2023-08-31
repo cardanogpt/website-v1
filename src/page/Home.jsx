@@ -15,7 +15,7 @@ import {BsMedium} from 'react-icons/bs';
 import {LuKey} from 'react-icons/lu';
 import {BiLogoTelegram} from 'react-icons/bi';
 import {SiGitbook} from 'react-icons/si';
-import PopupButton from '../components/Buttons/PopupButton';
+//import PopupButton from '../components/Buttons/PopupButton';
 
 
 import { device } from '../breakpoint'
@@ -39,7 +39,7 @@ const Home = () => {
                         </h3>
                         <div className="hero-button">
                             <MainButton href='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
-                            <PopupButton text='Join Pre Sale Whitelist' secondary />
+                            <MainButton href='https://zealy.io/c/replyada/questboard' text='Join Pre Sale Whitelist' secondary />
                         </div>
                     </div>
                 </div>
