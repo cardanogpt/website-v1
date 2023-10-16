@@ -39,7 +39,7 @@ const Home = () => {
                         </h3>
                         <div className="hero-button">
                             <MainButton href='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
-                            {/* <MainButton href='https://zealy.io/c/replyada/questboard' text='Join Pre Sale Whitelist' secondary /> */}
+                            <MainButton href='https://sale.cardanogpt.ai/' text='Buy CGI' secondary />
                         </div>
                     </div>
                 </div>
