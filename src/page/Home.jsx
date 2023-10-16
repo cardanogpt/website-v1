@@ -130,13 +130,14 @@ const Home = () => {
                     <div className="dist">
                         <h3 className='headings-details'>Token Distribution</h3>
                         <div className='buttons'>
-                            <PillButton text={'Team & Advisors: 9%'} />
+                            <PillButton text={'Team & Advisors: 5%'} />
                             <PillButton text={'Airdrop: 3%'} />
                             <PillButton text={'Private Sale: 10%'} />
-                            <PillButton text={'Presale: 25%'} />
-                            <PillButton text={'Liquidity: 18.7%'} />
-                            <PillButton text={'Staking & Farming Rewards: 20.3%'} />
-                            <PillButton text={'Further Research & Development: 14%'} />
+                            <PillButton text={'Presale: 3.6%'} />
+                            <PillButton text={'Dex Liquidity: 3.4%'} />
+                            <PillButton text={'Farming Rewards: 10%'} />
+                            <PillButton text={'Research & Development (R&D): 7%'} />
+                            <PillButton text={'Reserve: 8%'} />
                         
                         </div>
                     </div>
