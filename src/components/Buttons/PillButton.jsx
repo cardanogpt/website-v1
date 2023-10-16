@@ -13,7 +13,7 @@ const PillButton = (props) => {
 export default PillButton
 
 const Button = styled.a`
-    
+    word-wrap: break-word;
     border-radius: 8px;
     font-size: 1rem;
     cursor: pointer;
