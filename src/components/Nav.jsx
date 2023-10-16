@@ -84,7 +84,6 @@ const NavBar = styled.nav`
 
     &> .action-button {
         width: 200px;
-        visibility: hidden;
     }     
 
     ul {
