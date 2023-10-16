@@ -124,6 +124,7 @@ const Home = () => {
                             <PillButton text={'Ticker:   CGI'} />
                             <PillButton text={'CGI Total Supply: 10,000,000'} />
                             <PillButton text={'Blockchain: Cardano'} />
+                            <PillButton text={'Policy ID: 2d587111358801114f04df83dc0015de0a740b462b75cce5170fc935 '} />
                         </div>
                     </div>
                     <div className="dist">
