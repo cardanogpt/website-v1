@@ -39,7 +39,7 @@ const Home = () => {
                         </h3>
                         <div className="hero-button">
                             <MainButton href='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
-                            <MainButton href='https://sale.cardanogpt.ai/' text='Buy CGI' secondary />
+                            <MainButton href='https://app.wingriders.com/swap/ada/2d587111358801114f04df83dc0015de0a740b462b75cce5170fc935434749/constantProduct' text='Buy CGI' secondary />
                         </div>
                     </div>
                 </div>
