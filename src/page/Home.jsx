@@ -66,18 +66,18 @@ const Home = () => {
                 <div className="feature-list">
                     <Card light
                     icon={<FaRobot size='3rem' />}
-                    heading={'Custom AI Bots'}
-                    text={"CardanoGPT is pioneering a new era in the crypto social space with tailor-made Al bots for platforms like Twitter, Telegram, and Discord.\nTrained on specific datasets, these bots serve as community moderator, central hubs for information, providing instantaneous support wherever they're deployed."}
+                    heading={'Custom Bot Development'}
+                    text={"CardanoGPT empowers projects and businesses with the ability to utilize custom AI powered chatbots tailored to their specific needs. \nWhether it's for community management on social platforms, automated customer support, or data analysis, we offers a comprehensive suite of tools to build and deploy AI bots with ease."}
                     />
                     <Card
                     icon={<LuKey size='3rem' />}
-                    heading={'SDK & API Access'}
-                    text={"For developers and enterprises, Our API & SDK opens doors to integrating specific CardanoGPT Al functionalities or constructing of new applications atop our Al model.\nIt's a shortcut to the prowess of an advanced Al like CardanoGPT, eliminating the need to train one from the ground up"}
+                    heading={'Twitter Chatbot'}
+                    text={"ReplyAda, CardanoGPT's Twitter ReplyBot, is your real-time companion for all things Cardano. It provides instant responses to queries about Cardano's technology, updates, and developments on Twitter.\nStay informed, engage with the Cardano community, and receive timely updates without leaving your Twitter feed."}
                     />
                     <Card
                     icon={<FaTools size='3rem' />}
-                    heading={'Access to AI products'}
-                    text={"As a CGI holder, immerse yourself in our comprehensive DApp, boasting Al-driven tools such as smart contract generator & auditor, code writer, contents & arts generator and more"}
+                    heading={'General Knowledge Chabot'}
+                    text={"Inspired by the Italian physicist Girolamo Cardano, our internet-enabled general knowledge bot GiroLamo bot, is a treasure trove of information which operates similarly to ChatGPT 4,offering real-time answers to a wide range of questions from the internet.\nAccess a vast repository of knowledge, receive well-tailored answers to your inquiries, and enjoy the convenience of an AI-powered information resource."}
                     />
                 </div>
                 <Hr className='hr'/>
@@ -89,23 +89,23 @@ const Home = () => {
         <FeaturesII className="features-2" id='ecosystem'>
             <div className='text'>
               <h1 className='feature-2-heading'><span className='green'>CardanoGPT</span><span className='waivy'>Ecosystem</span></h1>
-              <p>At the heart of cardanoGPT ecosystem is the $CGI token, which is the utility token and key to accessing the marvels of the cardanoGPT Al model, API access, and our inclusive DAO</p>
+              <p>At the heart of cardanoGPT ecosystem is the $CGI token, which is the utility token and key to accessing the marvels of the cardanoGPT Al models and our inclusive DAO.</p>
             </div>
             <div className="feature-2-list">
                 <div className='flex-center'>
                     <Card className='standalone'  
-                        heading={'Staking & Farming'}
-                        text={"Holder can stake their CGI tokens and unlock a treasure trove of perks: from access to CardanoGPT DApp, Launchpad and a voice in the DAO."}
+                        heading={'Liquidity Provision & CGI Farming'}
+                        text={"CardanoGPT offers users the opportunity to participate in decentralized finance (DeFi) activities. By providing liquidity to the CGI token liquidity pool and engaging in yield farming, users can earn rewards and contribute to the liquidity of the CGI token."}
                         />
                 </div>
                 <div className='flex'>
                     <Card  
-                        heading={'CardanoGPT launchpad'}
-                        text={"CGI holders can stake their tokens and get guaranteed allocation to participate in upcoming IDOs on the cardanoGPT launchpad."}
+                        heading={'Governance & Decision-Making'}
+                        text={"CGI token holders have the power to participate in the governance of the CardanoGPT ecosystem. They can propose and vote on changes, upgrades, and strategic decisions through a decentralized autonomous organization (DAO). This feature ensures that the community plays an active role in shaping the project's future direction."}
                         />
                     <Card  
-                        heading={'DAO Voting'}
-                        text={"Democracy thrives in the CardanoGPT ecosystem. $CGI holders wield the power to shape the future of cardanoGPT through our DAO: propose, vote, and channel resources."}
+                        heading={'General Knowledge Chatbot'}
+                        text={"Holders of CGI tokens have exclusive access to CardanoGPT's internet-enabled general knowledge chatbot, GiroLamo, providing real-time answers sourced from the internet, making it a valuable resource for information and research. Enjoy access to a vast repository of knowledge, receive well-tailored answers to inquiries, and stay informed within the CardanoGPT community."}
                         />
                     </div>
                 </div>
