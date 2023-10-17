@@ -35,7 +35,7 @@ const Home = () => {
                             CardanoGPT, harnessing the potential of AI to drive web3 initiatives and communities forward
                         </h1>
                         <h3 className="hero-subheading waivy">
-                            Exclusive AI features for CGI holders on the CardanoGPT DApp
+                            {/* Exclusive AI features for CGI holders on the CardanoGPT DApp */}
                         </h3>
                         <div className="hero-button">
                             <MainButton href='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
