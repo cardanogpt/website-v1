@@ -536,9 +536,7 @@ const FeaturesII = styled.div`
         display: flex;
         align-items: center;
     }
-    .flex-center p, .flex p {
-        margin-bottom: 7rem;
-    }
+    
     .feature-2-heading {margin:1.5rem 0;}
     .feature-2-heading .green {
         display: block;
