@@ -386,7 +386,7 @@ const Hero = styled.div`
         min-height: 60rem;
 
         &.showcase2 {
-            min-height: 90rem;
+            min-height: 100rem;
         }
         h1 {
             font-size: 3rem;
