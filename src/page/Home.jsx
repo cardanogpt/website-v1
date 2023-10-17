@@ -502,6 +502,10 @@ const Features = styled.div`
         display: flex;
         justify-content: space-around;
         gap:2rem;
+        & > * {
+            flex: 1;
+        }
+
     }
     @media screen and (${device.md}) {
         .feature-list {
@@ -545,11 +549,16 @@ const FeaturesII = styled.div`
         gap:3rem;
         flex-basis: 1;
         margin-bottom: 3rem;
-
+        & > * {
+            flex: 1;
+        }
         .flex {
             display: flex;
             flex-direction: column;
             gap:3rem;
+            & > * {
+                flex: 1;
+            }
         }
     }
 
