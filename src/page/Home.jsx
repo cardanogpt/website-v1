@@ -137,7 +137,8 @@ const Home = () => {
                             <PillButton text={'Dex Liquidity: 3.4%'} />
                             <PillButton text={'Farming Rewards: 10%'} />
                             <PillButton text={'Research & Development (R&D): 7%'} />
-                            <PillButton text={'Reserve: 8%'} />
+                            <PillButton text={'Marketing: 5%'} />
+                            <PillButton text={'Reserve: 3%'} />
                             <PillButton text={'Burnt $CGI: 50%'} />
                         </div>
                     </div>
