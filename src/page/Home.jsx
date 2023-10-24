@@ -316,26 +316,19 @@ const Hero = styled.div`
     }
     &.showcase2 {
         background: url(${token});
-        max-height: fit-content;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
         min-height: 100vh;
-        height: 60rem;
+        padding:2rem 0;
         
-        .hero-content, .hero-content2 {
+        .hero-content2 {
+            margin: 0 auto;
             text-align: center;
-            position: absolute;
-            
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
         }
-        .hero-content {
-            margin: 40% 0;
-        }
+      
+
         text-align: left;
         h1,h2,h3 {
             margin-bottom: 30px;
@@ -383,11 +376,6 @@ const Hero = styled.div`
         }
         .info {
             flex-direction: column;
-        }
-        min-height: 60rem;
-
-        &.showcase2 {
-            min-height: 100rem;
         }
         h1 {
             font-size: 3rem;
