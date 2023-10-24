@@ -32,7 +32,7 @@ const Button = styled.a`
       text-align: center;
       background: #000;
     }
-  @media screen and (${device.sm}) {
+  @media screen and (${device.md}) {
     width: 100%;
   }
 `
