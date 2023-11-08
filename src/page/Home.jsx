@@ -440,7 +440,7 @@ const Showcase = styled.div`
         .showcase {
             width: 100%;
             margin: 0;
-            padding-left: 1rem;
+            padding: 1rem;
             align-self: self-start;
             
         }
