@@ -122,7 +122,7 @@ const Home = () => {
                         <div className='buttons'>
                             <PillButton text={'Token Name: CARDANOGPT'}/>
                             <PillButton text={'Ticker:   CGI'} />
-                            <PillButton text={'CGI Total Supply: 10,000,000'} />
+                            <PillButton text={'CGI Total Supply: 5,000,000'} />
                             <PillButton text={'Blockchain: Cardano'} />
                             <PillButton text={'Policy ID: 2d587111358801114f04df83dc0015de0a740b462b75cce5170fc935 '} />
                         </div>
@@ -130,16 +130,16 @@ const Home = () => {
                     <div className="dist">
                         <h3 className='headings-details'>Token Distribution</h3>
                         <div className='buttons'>
-                            <PillButton text={'Team & Partnerships: 5%'} />
-                            <PillButton text={'Airdrop: 3%'} />
-                            <PillButton text={'Private Sale: 10%'} />
-                            <PillButton text={'Presale: 3.6%'} />
-                            <PillButton text={'Dex Liquidity: 3.4%'} />
-                            <PillButton text={'Farming Rewards: 10%'} />
-                            <PillButton text={'Research & Development (R&D): 7%'} />
-                            <PillButton text={'Marketing: 5%'} />
-                            <PillButton text={'Reserve: 3%'} />
-                            <PillButton text={'Burnt $CGI: 50%'} />
+                            <PillButton text={'Team & Partnerships: 10%'} />
+                            <PillButton text={'Airdrop: 6%'} />
+                            <PillButton text={'Private Sale: 20%'} />
+                            <PillButton text={'Presale: 7.2%'} />
+                            <PillButton text={'Dex Liquidity: 6.8%'} />
+                            <PillButton text={'Farming Rewards: 20%'} />
+                            <PillButton text={'Research & Development (R&D): 14%'} />
+                            <PillButton text={'Marketing: 10%'} />
+                            <PillButton text={'Reserve: 6%'} />
+                            <PillButton text={'Burnt $CGI: 5 Million'} />
                         </div>
                     </div>
                 </div>
