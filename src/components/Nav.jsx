@@ -123,7 +123,6 @@ const NavBar = styled.nav`
             display: inline-block;
             width: 70%;
             text-align: center;
-            visibility: hidden;
         }
     }
     .navlist {
