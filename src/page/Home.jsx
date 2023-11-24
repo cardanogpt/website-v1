@@ -130,7 +130,6 @@ const Home = () => {
                     <div className="dist">
                         <h3 className='headings-details'>Token Distribution</h3>
                         <div className='buttons'>
-                            <PillButton text={'Team & Partnerships: 10%'} />
                             <PillButton text={'Airdrop: 6%'} />
                             <PillButton text={'Private Sale: 20%'} />
                             <PillButton text={'Presale: 7.2%'} />
@@ -139,6 +138,7 @@ const Home = () => {
                             <PillButton text={'Research & Development (R&D): 14%'} />
                             <PillButton text={'Marketing: 10%'} />
                             <PillButton text={'Reserve: 6%'} />
+                            <PillButton text={'Team & Partnerships: 10%'} />
                             <PillButton text={'Burnt $CGI: 5 Million'} />
                         </div>
                     </div>
