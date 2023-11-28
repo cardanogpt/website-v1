@@ -76,7 +76,7 @@ const Home = () => {
                     />
                     <Card
                     icon={<FaTools size='3rem' />}
-                    heading={'General Knowledge Chabot'}
+                    heading={'General Knowledge Chatbot'}
                     text={"Inspired by the Italian physicist Girolamo Cardano, our internet-enabled general knowledge bot GiroLamo bot, is a treasure trove of information which operates similarly to ChatGPT 4,offering real-time answers to a wide range of questions from the internet.\nAccess a vast repository of knowledge, receive well-tailored answers to your inquiries, and enjoy the convenience of an AI-powered information resource."}
                     />
                 </div>
