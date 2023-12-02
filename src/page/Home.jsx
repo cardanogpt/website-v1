@@ -53,7 +53,7 @@ const Home = () => {
                 <p>At CardanoGPT, our mission is to deploy AI-driven tools that elevate the performance and catalyze productivity of Cardano Projects</p>
             </div>
             <div className="showcase_img">
-                <img alt='robot hand' src={robot}/>
+                <img alt='' src={robot}/>
             </div>
         </Showcase>
 
