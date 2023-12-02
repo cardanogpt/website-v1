@@ -5,6 +5,7 @@ import robot from '../assets/images/robot.png'
 import token from '../assets/images/token_background.png'
 import bitcoin from '../assets/images/bitcoinist.png'
 import business from '../assets/images/business_Insider_logo.png'
+import cryptoslate from '../assets/images/cryptoslate.png'
 import foreon from '../assets/images/foreon.png'
 import MainButton from '../components/Buttons/MainButton';
 import PillButton from '../components/Buttons/PillButton';
@@ -160,6 +161,9 @@ const Home = () => {
                 </a>
                 <a target='__blank' href='https://markets.businessinsider.com/news/stocks/cardanogpt-an-innovative-cardano-project-looking-to-utilize-artificial-intelligence-to-increase-productivity-cardano-projects-1032531384'>
                     <img alt='business insider logo' src={business} />
+                </a>
+                <a target='__blank' href='https://cryptoslate.com/cardano-enters-beta-test-phase-for-new-blockchain-based-ai-chat-bot-girolamo/'>
+                    <img alt='cryptoslate logo' src={cryptoslate} />
                 </a>
             </div>
                 <h2 className='waivy'>Partners</h2>
@@ -613,6 +617,11 @@ const Media = styled.div`
         }
         }
         
+    }
+    @media screen and (${device.xs}) {
+        .img-container {
+            flex-direction: column;
+        }
     }
 `
 
