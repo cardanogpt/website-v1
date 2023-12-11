@@ -4,7 +4,7 @@ import { device } from '../../breakpoint'
 
 const PillButton = (props) => {
   return (
-    <Button href={props.href} target='__blank' className={props.centerDark? 'center-dark': ''}>
+    <Button to={props.to} target={props.target? '__blank' : ''} className={props.centerDark? 'center-dark': ''}>
         {props.text}
     </Button>
   )
