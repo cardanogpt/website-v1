@@ -40,8 +40,8 @@ const Home = () => {
                             {/* Exclusive AI features for CGI holders on the CardanoGPT DApp */}
                         </h3>
                         <div className="hero-button">
-                            <MainButton to='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
-                            <MainButton to='/buy' text='Buy CGI' secondary />
+                            <MainButton target to='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
+                            <MainButton target to='/buy' text='Buy CGI' secondary />
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <PillButton to='/tokenomics' centerDark text={'Dive into our Tokenomics'} />
+                <PillButton target to='/tokenomics' centerDark text={'Dive into our Tokenomics'} />
             </div>
             
             
