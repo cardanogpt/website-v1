@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import hero from '../assets/images/hero.png'
 import logo from '../assets/images/logo.png'
 import robot from '../assets/images/robot.png'
@@ -196,8 +197,8 @@ const Home = () => {
                                 <a target='__blank' href='https://docs.cardanogpt.ai/disclaimer'> Disclaimer</a>
                             </li>
                             <li>
-                                <a target='__blank' href='https://medium.com/@cardanogpt'> Blog
-                                </a>
+                                <Link target='__blank' to='/blog'> Blog
+                                </Link>
                             </li>
                         </ul>
                     </nav>
