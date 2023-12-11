@@ -25,7 +25,7 @@ const Nav = () => {
             <li><a href='#ecosystem'>Ecosystem</a></li>
             <li><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
         </ul>
-        <MainButton className='modal-button' to='/buy' text='Buy CGI' />
+        <MainButton target className='modal-button' to='/buy' text='Buy CGI' />
         
         <CgMenu onClick={toggleNav} className='menu-button' id='menu' size='4rem' />
         
@@ -45,7 +45,7 @@ const Nav = () => {
             {/* <Popup trigger={<button className='modal-button'>Buy CGI</button>} position="right center" modal>
             <div className='popup'>Coming Soon!!</div>
             </Popup> */}
-            <MainButton to='/buy' text='Buy CGI' />
+            <MainButton target to='/buy' text='Buy CGI' />
         </div>
 
     </NavBar>
