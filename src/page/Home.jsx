@@ -41,7 +41,7 @@ const Home = () => {
                         </h3>
                         <div className="hero-button">
                             <MainButton to='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
-                            <MainButton target to='/buy' text='Buy CGI' secondary />
+                            <MainButton to='/buy' text='Buy CGI' secondary />
                         </div>
                     </div>
                 </div>
