@@ -1,5 +1,6 @@
 import React from 'react'
 import { styled } from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const MainButton = (props) => {
   return (
@@ -12,7 +13,7 @@ const MainButton = (props) => {
 export default MainButton
 
 
-const Button = styled.a`
+const Button = styled(Link)`
 
     border-radius: 8px;
     border: 1px;

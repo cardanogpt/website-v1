@@ -1,6 +1,7 @@
 import React from 'react'
 import { styled } from 'styled-components'
 import { device } from '../../breakpoint'
+import { Link } from 'react-router-dom'
 
 const PillButton = (props) => {
   return (
@@ -12,7 +13,7 @@ const PillButton = (props) => {
 
 export default PillButton
 
-const Button = styled.a`
+const Button = styled(Link)`
     word-wrap: break-word;
     border-radius: 8px;
     font-size: 1rem;
