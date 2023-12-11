@@ -39,8 +39,8 @@ const Home = () => {
                             {/* Exclusive AI features for CGI holders on the CardanoGPT DApp */}
                         </h3>
                         <div className="hero-button">
-                            <MainButton href='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
-                            <MainButton href='https://app.wingriders.com/swap/ada/2d587111358801114f04df83dc0015de0a740b462b75cce5170fc935434749/constantProduct' text='Buy CGI' secondary />
+                            <MainButton to='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
+                            <MainButton to='/buy' text='Buy CGI' secondary />
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <PillButton href='https://docs.cardanogpt.ai/tokenomics-and-distribution' centerDark text={'Dive into our Tokenomics'} />
+                <PillButton to='/tokenomics' centerDark text={'Dive into our Tokenomics'} />
             </div>
             
             
@@ -178,7 +178,7 @@ const Home = () => {
                     <h2 className='waivy'>Support & Contact</h2>
                     <p>Got Queries? Explore our <a target='__blank' href='https://docs.cardanogpt.ai/' >Documentation</a></p>
                     <p>For bespoke? AI tools development, kindly reach us at</p>
-                    <PillButton href='mailto:Contact@cardanogpt.ai' centerDark text={'Contact@cardanogpt.ai'} />
+                    <PillButton to='mailto:Contact@cardanogpt.ai' centerDark text={'Contact@cardanogpt.ai'} />
                     
                 </div>
                 <div >
