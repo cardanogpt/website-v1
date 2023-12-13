@@ -188,13 +188,13 @@ const Home = () => {
                         <img src={logo} alt='logo'/>
                         <ul>
                             <li>
-                                <a target='__blank' href='https://docs.cardanogpt.ai/learn-the-concepts'> Learn The Concept</a>
+                                <Link target='__blank' to='/learn'> Learn The Concept</Link>
                             </li>
                             <li>
-                                <a target='__blank' href='https://docs.cardanogpt.ai/'> Documentation</a>
+                                <Link target='__blank' to='/docs'> Documentation</Link>
                             </li>
                             <li>
-                                <a target='__blank' href='https://docs.cardanogpt.ai/disclaimer'> Disclaimer</a>
+                                <Link target='__blank' to='/disclaimer'> Disclaimer</Link>
                             </li>
                             <li>
                                 <Link target='__blank' to='/blog'> Blog
