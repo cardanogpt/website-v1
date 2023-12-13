@@ -6,6 +6,7 @@ import logo from '../assets/images/logo.png'
 import styled from 'styled-components'
 import { device } from '../breakpoint'
 import hero from '../assets/images/hero.png'
+import { Link } from 'react-router-dom';
 //import 'reactjs-popup/dist/index.css';
 
 const Nav = () => {
@@ -23,7 +24,7 @@ const Nav = () => {
             <li><a href='#solutions'>Solutions</a></li>
             <li><a href='#features'>Features</a></li>
             <li><a href='#ecosystem'>Ecosystem</a></li>
-            <li><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
+            <li><Link target='__blank' to='/docs' >Docs</Link></li>
         </ul>
         <MainButton target className='modal-button' to='/buy' text='Buy CGI' />
         
@@ -40,7 +41,7 @@ const Nav = () => {
                 <li onClick={closeNav}><a href='#solutions'>Solutions</a></li>
                 <li onClick={closeNav}><a href='#features'>Features</a></li>
                 <li onClick={closeNav}><a href='#ecosystem'>Ecosystem</a></li>
-                <li onClick={closeNav}><a target='__blank' href='https://docs.cardanogpt.ai/' >Docs</a></li>
+                <li onClick={closeNav}><Link target='__blank' to='/docs' >Docs</Link></li>
             </ul>
             {/* <Popup trigger={<button className='modal-button'>Buy CGI</button>} position="right center" modal>
             <div className='popup'>Coming Soon!!</div>

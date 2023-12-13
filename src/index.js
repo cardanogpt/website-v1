@@ -11,6 +11,7 @@ import {
 import Buy from './page/Buy';
 import Tokenomics from './page/Tokenomics';
 import Blog from './page/Blog';
+import Docs from './page/Docs';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,18 @@ const router = createBrowserRouter([
   {
     path: "/blog",
     element: <Blog />,
+  },
+  {
+    path: "/docs",
+    element: <Docs />
+  },
+  {
+    path: "/learn",
+    element: <Docs pathname='learn' />
+  },
+  {
+    path: "/disclaimer",
+    element: <Docs pathname='disclaimer' />
   },
   {
     path: "*",
