@@ -1,8 +1,10 @@
 import React from 'react'
 import { styled } from 'styled-components'
 import { device } from '../breakpoint'
+import MainButton from './Buttons/MainButton'
+import PillButton from './Buttons/PillButton'
 
-const Card = ({icon, heading, text, light}) => {
+const Card = ({icon, heading, text, linkText , link , light}) => {
   return (
     <CardContainer className={light? 'light': 'dull'}>
       {
@@ -30,9 +32,10 @@ const Card = ({icon, heading, text, light}) => {
       </svg>
       }
       <div>
-        {icon?<span>{icon}</span>:''}
+        {icon?<span className='icon'>{icon}</span>:''}
         <h3 className='waivy'>{heading}</h3>
         <p>{text}</p>
+        {link && <PillButton to={link} text={linkText}/>}
       </div>
     </CardContainer>
   )
@@ -48,6 +51,7 @@ const CardContainer = styled.div`
     left: 0;
     height: 100%;
     width: 100%;
+    pointer-events: none;
   }
   div {
     display: flex;
@@ -71,7 +75,11 @@ const CardContainer = styled.div`
       line-height: 1.5;
       white-space: pre-wrap;
     }
-    span {
+    a {
+      width: fit-content;
+      margin-top: 2rem;
+    }
+    .icon {
       position: relative;
       display: flex;
       align-items: center;
