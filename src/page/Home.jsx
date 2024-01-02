@@ -596,8 +596,9 @@ const Media = styled.div`
     text-align: center;
     min-height: 100vh;
     margin: 2rem 0;
-    h3 {
-        font-size: 3rem
+    h2 {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
     }
     div {
         display: flex;
