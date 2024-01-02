@@ -12,6 +12,7 @@ import Buy from './page/Buy';
 import Tokenomics from './page/Tokenomics';
 import Blog from './page/Blog';
 import Docs from './page/Docs';
+import Discord from './page/Discord';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/disclaimer",
     element: <Docs pathname='disclaimer' />
+  },
+  {
+    path: "/discord",
+    element: <Discord />
   },
   {
     path: "*",
