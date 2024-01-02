@@ -1,7 +1,6 @@
 import React from 'react'
 import { styled } from 'styled-components'
 import { device } from '../breakpoint'
-import MainButton from './Buttons/MainButton'
 import PillButton from './Buttons/PillButton'
 
 const Card = ({icon, heading, text, linkText , link , light}) => {
