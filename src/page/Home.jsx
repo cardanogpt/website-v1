@@ -7,6 +7,8 @@ import token from '../assets/images/token_background.png'
 import bitcoin from '../assets/images/bitcoinist.png'
 import business from '../assets/images/business_Insider_logo.png'
 import cryptoslate from '../assets/images/cryptoslate.png'
+import utoday from '../assets/images/utoday.png'
+import dailyhodl from '../assets/images/dailyhodl.png'
 import foreon from '../assets/images/foreon.png'
 import MainButton from '../components/Buttons/MainButton';
 import PillButton from '../components/Buttons/PillButton';
@@ -176,11 +178,17 @@ const Home = () => {
                 <a target='__blank' href='https://cryptoslate.com/cardano-enters-beta-test-phase-for-new-blockchain-based-ai-chat-bot-girolamo/'>
                     <img alt='cryptoslate logo' src={cryptoslate} />
                 </a>
-            </div>
-                <h2 className='waivy'>Partners</h2>
-                <a target='__blank' href='https://foreon.network/'>
-                    <img alt='foreon logo' src={foreon} />
+                <a target='__blank' href='https://u.today/cardano-makes-ai-progress-with-first-internet-generative-chatbot'>
+                    <img alt='u-today logo' src={utoday} />
                 </a>
+                <a target='__blank' href='https://dailyhodl.com/2023/11/27/new-artificial-intelligence-ai-powered-chatbot-girolamo-launches-beta-phase-on-cardano-blockchain/'>
+                    <img alt='dailyhodl logo' src={dailyhodl} />
+                </a>
+            </div>
+            <h2 className='waivy'>Partners</h2>
+            <a target='__blank' href='https://foreon.network/'>
+                <img alt='foreon logo' src={foreon} />
+            </a>
         </Media>
 
         <Footer>
