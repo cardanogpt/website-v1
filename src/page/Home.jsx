@@ -605,7 +605,6 @@ const Media = styled.div`
     min-height: 100vh;
     margin: 2rem 0;
     h2 {
-        margin-top: 5rem;
         margin-bottom: 2rem;
     }
     div {
@@ -613,6 +612,7 @@ const Media = styled.div`
         align-items: center;
         font-size: 2rem;
         gap: 2rem;
+        margin-bottom: 5rem;
     }
     .img-container {
         display: flex;
@@ -629,7 +629,6 @@ const Media = styled.div`
         
     }
     @media screen and (${device.md}) {
-        margin:0 1rem;
         .img-container {
         display: flex;
         align-items: center;
