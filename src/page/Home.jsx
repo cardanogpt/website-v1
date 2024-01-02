@@ -615,7 +615,10 @@ const Media = styled.div`
         max-width: 100%;
     }
     a {
+        min-width: 200px;
+        flex: 1;
         width: 100%;
+        
     }
     @media screen and (${device.md}) {
         margin:0 1rem;
