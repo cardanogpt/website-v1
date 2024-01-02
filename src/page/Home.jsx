@@ -608,7 +608,7 @@ const Media = styled.div`
     }
     .img-container {
         display: flex;
-        
+        flex-wrap: wrap;
     }
     
     img {
