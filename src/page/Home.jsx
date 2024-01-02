@@ -42,7 +42,7 @@ const Home = () => {
                             {/* Exclusive AI features for CGI holders on the CardanoGPT DApp */}
                         </h3>
                         <div className="hero-button">
-                            <MainButton target to='https://discord.gg/7mAMbRg7VR' text='Join Discord'/>
+                            <MainButton target to='/discord' text='Join Discord'/>
                             <MainButton target to='/buy' text='Buy CGI' secondary />
                         </div>
                     </div>
