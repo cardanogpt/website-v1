@@ -71,21 +71,21 @@ const Home = () => {
                     <Card  
                         heading={'CardanoGPT General Knowledge Chatbot'}
                         text={"Holders with the required amount CGI tokens have an exclusive access to CardanoGPT’s internet-enabled general knowledge chatbot, Girolamo, A valuable resource for information and research."}
-                        linkText={"Access Girolamo"}
+                        linkText={"Learn More"}
                         link={"https://medium.com/@cardanogpt/cardanogpt-has-successfully-deployed-its-generative-discord-chatbot-girolamo-on-beta-66454eef6b3a"}
                         />
                     <Card light
                     icon={<FaRobot size='3rem' />}
                     heading={'Custom Bot Development'}
                     text={"CardanoGPT empowers projects and businesses with the ability to utilize custom AI powered chatbots tailored to their specific needs. Whether it's for community management on social platforms, automated customer support, or data analysis, we offers a comprehensive suite of AI tools across every social platform."}
-                    linkText={"Learn more"}
+                    linkText={"Learn More"}
                     link={"https://docs.cardanogpt.ai/custom-bot-development"}
                     />
                     <Card
                     icon={<LuKey size='3rem' />}
                     heading={'X Chatbot'}
                     text={"AskGirolamo, CardanoGPT's X chat and reply bot, is your real-time companion for all things Cardano. AskGirolamo provides instant responses to queries about Cardano and it's ecosystem developments on X.\nStay informed and receive timely updates on Cardano without leaving your X feed."}
-                    linkText={"Learn more"}
+                    linkText={"Learn More"}
                     link={"https://medium.com/@cardanogpt/introducing-cardanogpt-internet-enabled-cardano-savvy-twitter-chatbot-revolutionizing-information-f5584f8387d0"}
                     />
                 </div>
@@ -115,7 +115,7 @@ const Home = () => {
                         heading={'General Knowledge Discord ChatBot'}
                         text={"Inspired by the Italian physicist Girolamo Cardano, CardanoGPT internet-enabled general knowledge Chatbot Girolamo, is a treasure trove of information which operates similarly to ChatGPT-4. Girolamo provides real-time answers to wide range of questions, generates ultra realistic images, and gives a well thought description when asked to interpret an image.\nEnjoy the convenience of an AI-powered information resource right from Discord."}
                         linkText={"Join Girolamo Beta Testers"}
-                        link={"https://medium.com/@cardanogpt/cardanogpt-has-successfully-deployed-its-generative-discord-chatbot-girolamo-on-beta-66454eef6b3a"}
+                        link={"https://discord.gg/Ah5A3XsDW7"}
                         />
                     <Card  
                         heading={'Governance & Decision-Making'}
