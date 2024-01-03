@@ -53,7 +53,7 @@ const Home = () => {
             <div className="circle"></div>
             <div className="showcase">
                 <h1 className='waivy'>Our Solutions</h1>
-                <p>At CardanoGPT, our mission is to deploy AI-driven tools that elevate the performance and catalyze productivity of Cardano Projects</p>
+                <p>At CardanoGPT, our mission is to deploy AI-driven tools that elevate the performance and catalyze overall productivity.</p>
             </div>
             <div className="showcase_img">
                 <img alt='' src={robot}/>
