@@ -68,6 +68,12 @@ const Home = () => {
                 </div>
 
                 <div className="feature-list">
+                    <Card  
+                        heading={'CardanoGPT General Knowledge Chatbot'}
+                        text={"Holders with the required amount CGI tokens have an exclusive access to CardanoGPT’s internet-enabled general knowledge chatbot, Girolamo, A valuable resource for information and research."}
+                        linkText={"Access Girolamo"}
+                        link={"https://medium.com/@cardanogpt/cardanogpt-has-successfully-deployed-its-generative-discord-chatbot-girolamo-on-beta-66454eef6b3a"}
+                        />
                     <Card light
                     icon={<FaRobot size='3rem' />}
                     heading={'Custom Bot Development'}
@@ -81,13 +87,6 @@ const Home = () => {
                     text={"AskGirolamo, CardanoGPT's X chat and reply bot, is your real-time companion for all things Cardano. AskGirolamo provides instant responses to queries about Cardano and it's ecosystem developments on X.\nStay informed and receive timely updates on Cardano without leaving your X feed."}
                     linkText={"Learn more"}
                     link={"https://medium.com/@cardanogpt/introducing-cardanogpt-internet-enabled-cardano-savvy-twitter-chatbot-revolutionizing-information-f5584f8387d0"}
-                    />
-                    <Card
-                    icon={<FaTools size='3rem' />}
-                    heading={'General Knowledge Discord ChatBot'}
-                    text={"Inspired by the Italian physicist Girolamo Cardano, CardanoGPT internet-enabled general knowledge Chatbot Girolamo, is a treasure trove of information which operates similarly to ChatGPT-4. Girolamo provides real-time answers to wide range of questions, generates ultra realistic images, and gives a well thought description when asked to interpret an image.\nEnjoy the convenience of an AI-powered information resource right from Discord."}
-                    linkText={"Join Girolamo Beta Testers"}
-                    link={"https://medium.com/@cardanogpt/cardanogpt-has-successfully-deployed-its-generative-discord-chatbot-girolamo-on-beta-66454eef6b3a"}
                     />
                 </div>
                 <Hr className='hr'/>
@@ -111,15 +110,16 @@ const Home = () => {
                         />
                 </div>
                 <div className='flex'>
+                    <Card
+                        icon={<FaTools size='3rem' />}
+                        heading={'General Knowledge Discord ChatBot'}
+                        text={"Inspired by the Italian physicist Girolamo Cardano, CardanoGPT internet-enabled general knowledge Chatbot Girolamo, is a treasure trove of information which operates similarly to ChatGPT-4. Girolamo provides real-time answers to wide range of questions, generates ultra realistic images, and gives a well thought description when asked to interpret an image.\nEnjoy the convenience of an AI-powered information resource right from Discord."}
+                        linkText={"Join Girolamo Beta Testers"}
+                        link={"https://medium.com/@cardanogpt/cardanogpt-has-successfully-deployed-its-generative-discord-chatbot-girolamo-on-beta-66454eef6b3a"}
+                        />
                     <Card  
                         heading={'Governance & Decision-Making'}
                         text={"CGI token holders have the power to participate in the governance of CardanoGPT ecosystem. DAO members can propose and vote on changes, upgrades, and make strategic decisions. This feature ensures that the community plays an active role in shaping the CardanoGPT’s future direction."}
-                        />
-                    <Card  
-                        heading={'CardanoGPT General Knowledge Chatbot'}
-                        text={"Holders with the required amount CGI tokens have an exclusive access to CardanoGPT’s internet-enabled general knowledge chatbot, Girolamo, A valuable resource for information and research."}
-                        linkText={"Access Girolamo"}
-                        link={"https://medium.com/@cardanogpt/cardanogpt-has-successfully-deployed-its-generative-discord-chatbot-girolamo-on-beta-66454eef6b3a"}
                         />
                     </div>
                 </div>
@@ -584,7 +584,7 @@ const FeaturesII = styled.div`
             width: 100%;
         }
         .feature-2-list {
-            flex-direction: column;
+            flex-direction: column-reverse;
             gap: 2rem;
         }
         
