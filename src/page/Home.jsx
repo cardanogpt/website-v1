@@ -86,7 +86,7 @@ const Home = () => {
                     heading={'X Chatbot'}
                     text={"AskGirolamo, CardanoGPT's X chat and reply bot, is your real-time companion for all things Cardano. AskGirolamo provides instant responses to queries about Cardano and it's ecosystem developments on X.\nStay informed and receive timely updates on Cardano without leaving your X feed."}
                     linkText={"Learn More"}
-                    link={"https://medium.com/@cardanogpt/introducing-cardanogpt-internet-enabled-cardano-savvy-twitter-chatbot-revolutionizing-information-f5584f8387d0"}
+                    link={"https://medium.com/@cardanogpt/cardanogpt-successfully-launches-the-first-internet-enabled-cardano-focused-chatbot-on-x-72f4fb3ef0eb"}
                     />
                 </div>
                 <Hr className='hr'/>
