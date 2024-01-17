@@ -68,13 +68,14 @@ const Home = () => {
                 </div>
 
                 <div className="feature-list">
-                    <Card  
+                    <Card
+                        light  
                         heading={'CardanoGPT General Knowledge Chatbot'}
                         text={"Holders with the required amount CGI tokens have an exclusive access to CardanoGPT’s internet-enabled general knowledge chatbot, Girolamo, A valuable resource for information and research."}
                         linkText={"Learn More"}
                         link={"https://medium.com/@cardanogpt/cardanogpt-has-successfully-deployed-its-generative-discord-chatbot-girolamo-on-beta-66454eef6b3a"}
                         />
-                    <Card light
+                    <Card
                     icon={<FaRobot size='3rem' />}
                     heading={'Custom Bot Development'}
                     text={"CardanoGPT empowers projects and businesses with the ability to utilize custom AI powered chatbots tailored to their specific needs. Whether it's for community management on social platforms, automated customer support, or data analysis, we offers a comprehensive suite of AI tools across every social platform."}
