@@ -71,7 +71,7 @@ const Home = () => {
                     <Card
                         light  
                         heading={'CardanoGPT General Knowledge Chatbot'}
-                        text={"Holders with the required amount CGI tokens have an exclusive access to CardanoGPT’s internet-enabled general knowledge chatbot, Girolamo, A valuable resource for information and research."}
+                        text={"CGI holders with the required number of tokens, gets an exclusive access to CardanoGPT’s internet-enabled general knowledge chatbot. Girolamo, A valuable resource for real-information, content & image generation and other AI functionalities."}
                         linkText={"Learn More"}
                         link={"https://medium.com/@cardanogpt/cardanogpt-has-successfully-deployed-its-generative-discord-chatbot-girolamo-on-beta-66454eef6b3a"}
                         />
