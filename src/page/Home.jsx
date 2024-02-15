@@ -103,13 +103,13 @@ const Home = () => {
             </div>
             <div className="feature-2-list">
                 <div className='flex'>
-                    <Card className='standalone'  
+                    <Card className=''  
                         heading={'AI Powered Writing Platform'}
                         text={"Discover the future of content creation with CardanoGPT AI writing tools, the first AI-powered writing platform built on the Cardano blockchain, leveraging the power of advanced AI models. CardanoGPT AI powered writing platform is designed to transform how content is created, whether you're a blogger, marketer or business owner, our suite of writing tools is crafted to elevate your content strategy to new heights."}
                         linkText={"Learn More"}
                         link={"https://medium.com/@cardanogpt/unveiling-the-future-of-content-creation-cardanogpt-ai-powered-writing-platform-on-web3-0-bae569c9d6e4"}
                         />
-                    <Card className='standalone'  
+                    <Card className=''  
                         heading={'Providing Liquidity and Farming CGI'}
                         text={"CardanoGPT offers users the opportunity to participate in decentralized finance (DeFi) activities. By providing liquidity to the CGI token liquidity pool and engaging in yield farming, users can earn rewards while supporting CGI token liquidity."}
                         linkText={"Farm CGI on Wingriders"}
