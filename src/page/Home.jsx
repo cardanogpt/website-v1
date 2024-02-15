@@ -102,13 +102,20 @@ const Home = () => {
               <p>At the heart of cardanoGPT ecosystem is the $CGI token,the utility token and key to accessing the marvels of the cardanoGPT Al products and our inclusive DAO.</p>
             </div>
             <div className="feature-2-list">
-                <div className='flex-center'>
+                <div className='flex'>
+                    <Card className='standalone'  
+                        heading={'AI Powered Writing Platform'}
+                        text={"Discover the future of content creation with CardanoGPT AI writing tools, the first AI-powered writing platform built on the Cardano blockchain, leveraging the power of advanced AI models. CardanoGPT AI powered writing platform is designed to transform how content is created, whether you're a blogger, marketer or business owner, our suite of writing tools is crafted to elevate your content strategy to new heights."}
+                        linkText={"Learn More"}
+                        link={"https://medium.com/@cardanogpt/unveiling-the-future-of-content-creation-cardanogpt-ai-powered-writing-platform-on-web3-0-bae569c9d6e4"}
+                        />
                     <Card className='standalone'  
                         heading={'Providing Liquidity and Farming CGI'}
                         text={"CardanoGPT offers users the opportunity to participate in decentralized finance (DeFi) activities. By providing liquidity to the CGI token liquidity pool and engaging in yield farming, users can earn rewards while supporting CGI token liquidity."}
                         linkText={"Farm CGI on Wingriders"}
                         link={"https://app.wingriders.com/pools/026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a570c4e6e6bdef1478db5a455bf62a5abbe33a35d5632265ad15c81b383bf93df219?graph=tvl"}
                         />
+                        
                 </div>
                 <div className='flex'>
                     <Card
